@@ -1,0 +1,5 @@
+goal|habit|children
+good grades|*|revision-organised-mental health
+revision|create online spaced repetition flashcards for content taught in school-do exam practice questions for content taught in school-go over your created spaced repetition flashcards|*
+organised|write next school days after school tasks in notebook with expected times and duration-do after school tasks written in notebook|*
+mental health|meditate by taking deep breaths in and out using a clock app to time it-write at least three things you are grateful for in a notebook-read a book you are interested in-Do any exercise you enjoy: resistance training, cardio, sport etc.|*
