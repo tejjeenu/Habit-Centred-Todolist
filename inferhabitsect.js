@@ -140,7 +140,7 @@ export const Inferhabitsect = () => {
         goalmessage:goaldescription
       };
 
-      axios.post('http://192.168.1.83:5000/api/inferhabits', postData)  // Flask POST API endpoint
+      axios.post('/api/inferhabits', postData)  // Flask POST API endpoint
       .then(response => {
         if(response.data.habits !== ""){
           setHabits(response.data.habits.split('|'));
