@@ -471,7 +471,7 @@ export const Tasksect = () => {
     //previous route for localhost testing 'http://192.168.1.105:5000/api/scheduletasks'
     //usual route is https://tej16-api.onrender.com/api/scheduletasks
 
-    axios.post('http://192.168.1.83:5000/api/scheduletasks', postData)  // Flask POST API endpoint
+    axios.post('api/scheduletasks', postData)  // Flask POST API endpoint
       .then(response => {
         if(response.data.schedule !== ""){
           setCalendar(response.data.schedule.split("|"));
