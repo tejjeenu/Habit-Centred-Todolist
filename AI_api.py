@@ -31,7 +31,7 @@ def extractfromtree(goal):
 
 llm = ChatGroq(
     temperature=0, 
-    groq_api_key='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', 
+    groq_api_key='', 
     model_name="llama-3.3-70b-versatile"
 )
 
