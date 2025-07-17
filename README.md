@@ -4,7 +4,7 @@ Habit Centred Todolist is a productivity app that combines the power of a tradit
 
 ## Web App Link
 
-You can view the project here:  
+You can try the app here:  
 [https://habit-centred-todolist.web.app/](https://habit-centred-todolist.web.app/)
 
 ## Features
