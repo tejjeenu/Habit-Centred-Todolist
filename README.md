@@ -19,11 +19,11 @@ You can view the project here:
 ## How AI Functionalities Work
 
 ### Infer Habits
-- The Users entered descriptions is sent to a Flask API
+- User's goal/pain point descriptions is sent to a Flask API
 - Llama Model (LLM) is used to output a list of goals based on the user's description
-- each goal in the list is passed into a vector database (PineconeDB) containing a tree of habits associated with a goal (root node of tree)
-- habits are returned after querying vector database
-- habits are sent back to the front end and saved as habit tasks
+- Each goal in the list is passed into a vector database (PineconeDB) containing a tree of habits associated with a goal (root node of tree)
+- Habits are returned after querying vector database
+- Habits are sent back to the front end and saved as habit tasks
 
 ### Schedule Optimisation
 - Flask API has section which does contraint satisfaction handling to slot tasks into appropriate times in the day
