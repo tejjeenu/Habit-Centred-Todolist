@@ -2,6 +2,11 @@
 
 Habit Centred Todolist is a productivity app that combines the power of a traditional todolist with habit tracking and habit inference. The app helps you not only manage your daily tasks, but also build and maintain habits that support your goals and address your pain points.
 
+## Web App Link
+
+You can view the project here:  
+[https://habit-centred-todolist.web.app/](https://habit-centred-todolist.web.app/)
+
 ## Features
 
 - **Task Management**: Add, edit, and delete tasks with time constraints and durations.
@@ -30,7 +35,6 @@ Habit Centred Todolist is a productivity app that combines the power of a tradit
 - **LangChain & Groq** (AI model integration)
 - **Framer Motion** (Animations)
 - **Day.js / Moment.js** (Date handling)
-
 
 **Why Habit Centred Todolist?**  
 By integrating habit formation with task management, this app helps you not only get things done, but also build the routines that make productivity sustainable.
