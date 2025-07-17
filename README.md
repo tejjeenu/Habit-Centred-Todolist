@@ -21,7 +21,7 @@ You can view the project here:
 ### Infer Habits
 - User's goal/pain point descriptions is sent to a Flask API
 - Llama Model (LLM) is used to output a list of goals based on the user's description
-- Each goal in the list is passed into a vector database (PineconeDB) containing a tree of habits associated with a goal (root node of tree)
+- Each goal in the list is passed into a vector database (PineconeDB) containing a tree of researched habits associated with a goal (root node of tree)
 - Habits are returned after querying vector database
 - Habits are sent back to the front end and saved as habit tasks
 
