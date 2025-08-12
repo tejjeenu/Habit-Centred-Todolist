@@ -10,7 +10,7 @@ You can try the app here:
 ## Features
 
 1. **Add Tasks**: Enter your tasks with optional start time, end time, and duration. The app prevents overlapping tasks.
-2. **Infer Habits**: Use the "Infer" section to describe your goals or pain points. The app uses AI to suggest habits that can help you achieve your goals or overcome challenges.
+2. **Infer Habits**: Use the "Infer" section to describe your goals or pain points. The app uses an AI RAG system to suggest habits that can help you achieve your goals or overcome challenges.
 3. **Create Habits**: Manually create habits, set their duration, interval, and schedule them on specific days.
 4. **Edit Habits**: Adjust habit schedules and settings as your routine evolves.
 5. **Schedule Optimisation**: The app combines your tasks and habits, checks for time clashes, and generates a recommended routine.
