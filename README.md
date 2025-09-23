@@ -64,7 +64,7 @@ Try it here:
 
 - **React** – Frontend  
 - **Firebase** – Authentication & Database  
-- **Python (Flask)** – AI API for habit inference & scheduling  
+- **Python (Flask)** – AI API for habit inference & scheduling (located in seperate repo)
 - **Pinecone** – Vector database for habit inference  
 - **LangChain & Groq** – AI model integration  
 - **Framer Motion** – UI animations  
