@@ -20,7 +20,7 @@ This gap often leads to burnout, ineffective routines, and difficulty maintainin
 
 **Habit Centred Todolist** addresses these issues by integrating:  
 - **Task Management** – Organize your day with start/end times and durations.  
-- **Habit Tracking** – Create, track, and build streaks for meaningful habits.  
+- **Habit Tracking** – Create, track, and build streaks for meaningful habits, increasing and decreasing the habit duration accordingly
 - **AI Habit Inference** – Describe your goals/pain points, and the app suggests research-backed habits to help you succeed.  
 - **Schedule Optimisation** – Automatically merges tasks and habits into a conflict-free routine.  
 
