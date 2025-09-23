@@ -1,42 +1,83 @@
-# Habit Centred Todolist
+# ✅ Habit Centred Todolist  
 
-Habit Centred Todolist is a productivity app that combines the power of a traditional todolist with habit tracking and habit inference. The app helps you not only manage your daily tasks, but also build and maintain habits that support your goals and address your pain points.
+**Habit Centred Todolist** is a productivity app that goes beyond task management.  
+It combines a traditional to-do list with **habit tracking** and **AI-powered habit inference**, helping you not only complete tasks but also build sustainable routines that support your long-term goals.  
 
-## Web App Link
+---
 
-You can try the app here:  
-[https://habit-centred-todolist.web.app/](https://habit-centred-todolist.web.app/)
+## 🌍 Problem  
 
-## Features
+Most productivity apps focus only on **tasks**, leaving out the deeper challenge:  
+- Building **consistent habits** that drive long-term success.  
+- Understanding **which habits matter** for achieving specific goals.  
+- Avoiding **schedule clashes** that make routines unmanageable.  
 
-1. **Add Tasks**: Enter your tasks with optional start time, end time, and duration. The app prevents overlapping tasks.
-2. **Infer Habits**: Use the "Infer" section to describe your goals or pain points. The app uses an AI RAG system to suggest habits that can help you achieve your goals or overcome challenges.
-3. **Create Habits**: Manually create habits, set their duration, interval, and schedule them on specific days.
-4. **Edit Habits**: Adjust habit schedules and settings as your routine evolves.
-5. **Schedule Optimisation**: The app combines your tasks and habits, checks for time clashes, and generates a recommended routine.
-6. **Track Progress**: Mark tasks and habits as completed, and build streaks for your habits.
+This gap often leads to burnout, ineffective routines, and difficulty maintaining progress over time.  
 
-## How AI Functionalities Work
+---
 
-### Infer Habits
-- User's goal/pain point descriptions is sent to a Flask API
-- Llama Model (LLM) is used to output a list of goals based on the user's description
-- Each goal in the list is passed into a vector database (PineconeDB) containing a tree of researched habits associated with a goal (root node of tree)
-- Habits are returned after querying vector database
-- Habits are sent back to the front end and saved as habit tasks
+## 💡 Solution  
 
-### Schedule Optimisation
-- Flask API has section which does contraint satisfaction handling to slot tasks into appropriate times in the day
+**Habit Centred Todolist** addresses these issues by integrating:  
+- **Task Management** – Organize your day with start/end times and durations.  
+- **Habit Tracking** – Create, track, and build streaks for meaningful habits.  
+- **AI Habit Inference** – Describe your goals/pain points, and the app suggests research-backed habits to help you succeed.  
+- **Schedule Optimisation** – Automatically merges tasks and habits into a conflict-free routine.  
 
-## Technologies Used
+The result: **Productivity with purpose** — not just finishing tasks, but building a lifestyle that aligns with your goals.  
 
-- **React** (Frontend)
-- **Firebase** (Authentication & Database)
-- **Python(Flask)** (AI API for habit inference and scheduling)
-- **Pinecone** (Vector database for habit inference)
-- **LangChain & Groq** (AI model integration)
-- **Framer Motion** (Animations)
-- **Day.js / Moment.js** (Date handling)
+---
 
-**Why Habit Centred Todolist?**  
-By integrating habit formation with task management, this app helps you not only get things done, but also build the routines that make productivity sustainable.
+## 🌐 Web App  
+
+Try it here:  
+👉 [Habit Centred Todolist](https://habit-centred-todolist.web.app/)  
+
+---
+
+## ✨ Features  
+
+1. **Add Tasks** – Create tasks with time and duration; overlapping tasks are prevented.  
+2. **Infer Habits (AI-powered)** – Enter goals or pain points, and get suggested habits.  
+3. **Create Habits** – Manually add habits with intervals, durations, and schedules.  
+4. **Edit Habits** – Adjust as routines evolve.  
+5. **Schedule Optimisation** – Smartly combines tasks + habits into a routine.  
+6. **Track Progress** – Mark tasks/habits as complete and maintain streaks.  
+
+---
+
+## 🧠 How AI Works  
+
+### 🔍 Habit Inference  
+1. User submits a **goal/pain point**.  
+2. Flask API sends it to an **LLM (Llama via LangChain & Groq)**.  
+3. The model generates possible goals.  
+4. Each goal is queried against a **Pinecone vector database** of researched habits.  
+5. Relevant habits are returned to the frontend and saved as habit tasks.  
+
+### 🗓️ Schedule Optimisation  
+- Flask API applies **constraint satisfaction** to automatically assign tasks + habits into available time slots without clashes.  
+
+---
+
+## 🛠️ Technologies Used  
+
+- **React** – Frontend  
+- **Firebase** – Authentication & Database  
+- **Python (Flask)** – AI API for habit inference & scheduling  
+- **Pinecone** – Vector database for habit inference  
+- **LangChain & Groq** – AI model integration  
+- **Framer Motion** – UI animations  
+- **Day.js / Moment.js** – Date handling  
+
+---
+
+## 🌟 Why Habit Centred Todolist?  
+
+Unlike traditional productivity tools, this app:  
+- Helps you **manage tasks AND form habits**.  
+- Aligns productivity with **personal goals**.  
+- Provides **AI-driven recommendations** for sustainable growth.  
+
+👉 With Habit Centred Todolist, productivity becomes not just about finishing tasks — but about **building a better you**.  
+
