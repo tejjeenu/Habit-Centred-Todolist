@@ -1,7 +1,10 @@
 # ✅ Habit Centred Todolist  
 
 **Habit Centred Todolist** is a productivity app that goes beyond task management.  
-It combines a traditional to-do list with **habit tracking** and **AI-powered habit inference**, helping you not only complete tasks but also build sustainable routines that support your long-term goals.  
+It combines a traditional to-do list with **habit tracking** and **AI-powered habit inference**, helping you not only complete tasks but also build sustainable routines that support your long-term goals.
+
+Try it here:  
+👉 [Habit Centred Todolist](https://habit-centred-todolist.web.app/)  
 
 ---
 
@@ -28,12 +31,6 @@ The result: **Productivity with purpose** — not just finishing tasks, but buil
 
 ---
 
-## 🌐 Web App  
-
-Try it here:  
-👉 [Habit Centred Todolist](https://habit-centred-todolist.web.app/)  
-
----
 
 ## ✨ Features  
 
