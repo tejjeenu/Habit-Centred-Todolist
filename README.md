@@ -64,7 +64,7 @@ Try it here:
 
 - **React** – Frontend  
 - **Firebase** – Authentication & Database  
-- **Python (Flask)** – AI API for habit inference & scheduling (code in seperate repo [Habit Centred Todolist AI API](https://github.com/tejjeenu/Habit-Centred-Todolist-AI-API))
+- **Python (Flask)** – AI API for habit inference & scheduling
 - **Pinecone** – Vector database for habit inference  
 - **LangChain & Groq** – AI model integration  
 - **Framer Motion** – UI animations  
